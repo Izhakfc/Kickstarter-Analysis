@@ -31,7 +31,7 @@ Measures of central tendency and spread were obtained in US kickstarter campaign
 
 ![Central tendency and spread measures](./Resources/Central_tendency_measures.png) 
 
-Because Loiuse have a particular interest in the performance of other plays, the **VLOOKUP** function was used in order to determine the pledged amount that the play had, the original goal, the number of bakcer and the average donation was determined for the next plays:
+Because Loiuse have a particular interest in the performance of other plays, the **VLOOKUP** function was used in order to determine the pledged amount that the play had, the original goal, the number of backers and the average donation was determined for the next plays:
 
 * Be Prepared
 * Checkpoint 22
@@ -46,7 +46,7 @@ Because Loiuse have a particular interest in the performance of other plays, the
 To obtain further insights of the Kickstarter dataset an analysis of the duration of the campaigns needed to be performed, so the factors to analyse where:
 *	Outcomes Based on Launch Date
 *	Outcomes Based on Goals
-Afterwards, the columns of “deadline” and “launch_at” containing timestamps were converted into normal date format and a pivot table containing months as row labels, the count of outcomes as columns as shown in the image below.
+Afterwards, the columns of **deadline** and **launch_at** containing timestamps were converted into normal date format and a pivot table containing months as row labels, the count of outcomes as columns as shown in the image below.
 
 ![Outcomes by launch date](./Resources/Theater_Outcomes_vs_Launch.png) 
 
