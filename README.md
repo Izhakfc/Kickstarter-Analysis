@@ -26,6 +26,11 @@ Plays subcategory outcomes (US)  |  Plays subcategory outcomes (GB)
  
 
 As we can see in the charts of the United States and Great Britain, theather is the category with most fundraising campaigns and one with the highest success numbers, and as we can see in the images of Subcategories, plays related campaigns are by far the most common cand with a high number of success cases. 
+
+Measures of central tendency and spread were obtained in US kickstarter campaigns to compare the statistics of succesful adn failed campaigns and search for a pattern in average goals and pledged amounts of succesful kickstarters as shown in the table below the mean of each distribution is equal to the 3rd quartile so the data follows similar distributions, however, there is a large standard deviation meaning that there are some outliers in each set.
+
+![Central tendency and spread measures](./Resources/Central_tendency_measures.png) 
+
 Because Loiuse have a particular interest in the performance of other plays, the **VLOOKUP** function was used in order to determine the pledged amount that the play had, the original goal, the number of bakcer and the average donation was determined for the next plays:
 
 * Be Prepared
@@ -76,6 +81,9 @@ And then we obtained the number of successful, failed and canceled campaigns tha
 ![Goal ranges related to outcomes](./Resources/Outcomes_vs_Goals.png) 
 
 And as shown in the line chart below can see in the table, campaigns with a goal higher to $45,000 have a very high chance of failing, whereas campaigns with a goal range between **$35,000** and **$45,000** have a chance of succeeding over **60%**
+
+# Challenges
+Some of the challenges that I encountered was the presence of outliers in the data, like a very large goal amount for failed campaigns that made the standard deviation of the values higher than the interquartile range, this could compromise the analysis of the dataset and probably should be eliminated by some metric to improve the accuracy of the research.
 
 # Limitations
 Since the data was recollected for the years of 2014 to 2017, there is not a real guarantee that the characteristics of the successful campaigns of these years will be valid nowadays, especially after SARS-CoV-2 pandemic. Also, campaigns with a goal amount in the range of $35,000 and $45,000 have a high success percentage, however, there are only 9 projects of 1047 done with this ranges, so this is not a very significant value, so more data needs to be measured.
